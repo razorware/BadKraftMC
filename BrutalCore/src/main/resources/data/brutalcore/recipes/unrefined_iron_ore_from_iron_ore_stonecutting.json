@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": "brutalcore:unrefined_iron_ore",
+  "count": 9,
+  "experience": 0.75
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "brutalcore:block/jewelers_table_side",
+        "down": "brutalcore:block/jewelers_table_bottom",
+        "up": "brutalcore:block/jewelers_table_top",
+        "north": "brutalcore:block/jewelers_table_side",
+        "east": "brutalcore:block/jewelers_table_side",
+        "south": "brutalcore:block/jewelers_table_side",
+        "west": "brutalcore:block/jewelers_table_side"
+    }
+}

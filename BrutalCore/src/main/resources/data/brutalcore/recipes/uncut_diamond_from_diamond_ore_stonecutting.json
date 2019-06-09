@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_ore"
+  },
+  "result": "brutalcore:uncut_diamond",
+  "count": 3,
+  "experience": 0.75
+}

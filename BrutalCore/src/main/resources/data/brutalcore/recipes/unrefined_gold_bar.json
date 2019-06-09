@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "brutalcore:unrefined_gold_ore"
+    }
+  },
+  "result": {
+    "item": "brutalcore:unrefined_gold_bar",
+  	"experience": 0.2
+  }
+}

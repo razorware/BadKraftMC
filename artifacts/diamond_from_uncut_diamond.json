@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "brutalcore:uncut_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}
