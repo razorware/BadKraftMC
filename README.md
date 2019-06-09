@@ -1,2 +1,2 @@
-# badkraft
-home of brutal mods
+# BadKraftMC
+Home of Brutal MineCraft Mods
