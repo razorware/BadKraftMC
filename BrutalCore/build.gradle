@@ -1,8 +1,6 @@
 plugins {
 	id 'fabric-loom' version '0.2.4-SNAPSHOT'
 	id 'maven-publish'
-	
-	multimc(group = "io.github.prospector.modmenu", name = "ModMenu", version = "+")
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -26,7 +24,7 @@ dependencies {
 
 	// cotton
 	// 0.7.3+1.14.2-SNAPSHOT
-	modImplementation "io.github.cottonmc:cotton:0.7.3+1.14.2-SNAPSHOT"
+	//modImplementation "io.github.cottonmc:cotton:0.7.3+1.14.2-SNAPSHOT"
 	
 	// ModMenu: prospector/modmenu/ModMenu/1.6.2-92
 	modImplementation "io.github.prospector.modmenu:ModMenu:1.6.2-92"
