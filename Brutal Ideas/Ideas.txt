@@ -1,0 +1,14 @@
+
+Brutal Core -	Foundry Hammer, Tin, Copper, Brass, Aluminum, Titanium, Ruby, Silver, Concentrated Coal (Nether Ores: Fire Opal, Diamond Ore, etc. (Ore rarity is decreased))
+
+Brutal Gardens -	Thorned Hedge, Wither Root (Nether), Wolf's Bane
+
+Brutal Mines -	Improved Mineshafts, Improved Dungeons, Protected Vaults (New Entities: Undead Miner, Miner(s) Guards)
+
+Brutal Nether -	Nether Shafts, Baby Salamanders, Salamander (Boss, summoned by killing baby salamanders)
+
+Brutal Tech -	Compressed Coke (Burns 4 time more than coal, the minimum requirement: Blast Furnance) Lava Extractor (Input: Netherrack, Output: Lava), Lava Condensor (Input: Lava Source, Output: Concentrated Lava), Anthracitic Compressor (Input: Coal, Output: Compressed Coke)
+
+Brutal Engines -	TBD
+
+Brutal Skill -	TBD
