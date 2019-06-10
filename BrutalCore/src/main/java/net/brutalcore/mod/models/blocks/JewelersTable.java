@@ -1,5 +1,6 @@
 package net.brutalcore.mod.models.blocks;
 
+import net.brutalcore.mod.models.containers.JewelersContainer;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -7,12 +8,10 @@ import net.minecraft.block.Material;
 import net.minecraft.client.network.ClientDummyContainerProvider;
 import net.minecraft.container.BlockContext;
 import net.minecraft.container.NameableContainerProvider;
-import net.minecraft.container.StonecutterContainer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
@@ -33,14 +32,14 @@ public class JewelersTable extends Block {
 	@Override
 	public boolean activate(BlockState blockState, World world, BlockPos blockPos, PlayerEntity playerEntity, Hand hand, BlockHitResult blockHitResult) {
 		playerEntity.openContainer(blockState.createContainerProvider(world, blockPos));
-		playerEntity.incrementStat(Stats.INTERACT_WITH_STONECUTTER);
+		//playerEntity.incrementStat(Stats.INTERACT_WITH_STONECUTTER);
       
 		return true;
 	}
 
-	public NameableContainerProvider createContainerProvider(BlockState blockState_1, World world_1, BlockPos blockPos_1) {
-		return new ClientDummyContainerProvider((int_1, playerInventory_1, playerEntity_1) -> {
-			return new StonecutterContainer(int_1, playerInventory_1, BlockContext.create(world_1, blockPos_1));
+	public NameableContainerProvider createContainerProvider(BlockState blockState, World world, BlockPos blockPos) {
+		return new ClientDummyContainerProvider((id, playerInventory, playerEntity) -> {
+			return new JewelersContainer(id, playerInventory, BlockContext.create(world, blockPos));
 		}, CONTAINER_NAME);
 	}
 }
